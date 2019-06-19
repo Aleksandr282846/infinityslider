@@ -1,0 +1,29 @@
+.infinity-slider-wrap {
+    border: 2px solid black;
+    width: 350px;
+    height: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+.infinity-slider {
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.infinity-slider img {
+    /* background-size: contain; */
+    width: 350px;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 1s;
+}
+.infinity-slider .opacity0 {
+    opacity: 0;
+}
+.btn-infinity-up, .btn-infinity-down {
+    width: 36px;
+    height: 36px;
+    background: #000;
+}
